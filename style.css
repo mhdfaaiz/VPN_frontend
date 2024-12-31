@@ -1,0 +1,63 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set the body font and background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+/* Container for the table */
+.container {
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+}
+
+.device-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    font-family: Arial, sans-serif;
+    padding-bottom: 50px;
+}
+
+.device-name {
+    width: 150px;
+    /* Adjust width as needed */
+    font-size: 18px;
+}
+
+.serial-number {
+    width: 150px;
+    /* Adjust width as needed */
+    font-size: 18px;
+}
+
+.status-icon {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: 10px;
+    /* Space between name/serial and icon */
+}
+
+.status-online {
+    background-color: green;
+}
+
+.status-offline {
+    background-color: red;
+}
